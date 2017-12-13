@@ -12,9 +12,4 @@ function nameToAttributes(names){
     return { firstName: fName, lastName: lName}
   });
 }
-function attributesToPhrase(driver){
-  return driver.map(function(driver)){
-    return '${driver.name} is from ${driver.hometown}'
-  });
-  
-}
+f
